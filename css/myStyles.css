@@ -1,0 +1,304 @@
+/* General */
+body {
+	font-family:  Arial, Helvetica;
+	background: url(../images/backroundHeader.jpg) fixed;
+	background-size: 100%;
+}
+	
+#mainWrapper{
+	width: 990px;
+	background-color: #ffffe6;
+	margin: auto;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+
+.clearFix{
+	clear: both;
+}
+
+/* Header */
+header{
+    position: fixed;
+	height: 100%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	justify-content: space-between;
+	transition: 1s;
+	z-index: 10;
+	background: #ffffe6;
+	background-size: 100%;
+}
+
+header #logo{
+    display: none;
+}
+header #imageHeader { 
+    width:100%;
+    height: 100%;
+    text-align: center;
+    display: block;
+    position: fixed;
+}
+
+header #imageHeader p {
+    padding-top: 50px; 
+    font-family: Cursive;
+    font-size: 55px;
+    color: #aa5400;
+    text-shadow: 2px 2px black;
+}
+
+header #bread{ 
+    transition: 0.6;
+    width: 850px;
+    position: center;
+}
+
+header #row{
+    padding-top:50px;
+    width:50px;
+}
+
+header nav{
+    display: none;
+}
+
+header.sticky #imageHeader {
+    display: none;
+    height:0px;
+    width:0px;
+}
+
+header.sticky #imageHeader img{
+    display: none;
+    width:0px;
+    height: 0px;
+} 
+
+
+header.sticky nav{
+    display: flex;
+}
+
+
+header.sticky{
+    display: flex;
+    padding: 5px 20px;
+    background: #ffffe6;
+    height: 100px;
+}
+
+header.sticky #logo{
+    width: 100px;
+    height: 100px;
+    padding-left: 100px;
+    display: block;
+}
+
+
+header.sticky #menu {
+	position: relative;
+	text-align: right;
+	text-align: top;
+}
+
+header.sticky #logo{
+	position: relative;
+	width: 100px;
+	padding-left: 100px;
+	transition: 0.6;
+}
+
+header.sticky #menu ul{
+	position: relative;
+	list-style-type: none;
+	padding: 0;
+	display: inline-block;
+	margin-top: 25px;
+}
+
+header.sticky #menu ul li{
+	position: relative;
+	float: left;
+	margin-left: 5px;
+}
+
+header.sticky #menu ul li a{
+	position: relative;
+	text-decoration: none;
+	font-weight: bond;
+	color: #ffcc33;
+	padding: 10px 30px;
+	font-size: 20px;
+}
+
+
+header.sticky #menu ul li a:hover{
+	position: relative;
+	border-bottom: 2px solid #ffcc33;	
+}
+
+/* Header2 */
+header2{
+    position: fixed;
+	height: 100%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	justify-content: space-between;
+	transition: 1s;
+	z-index: 10;
+	background: #ffffe6;
+	background-size: 100%;
+}
+
+header2 nav{
+    display: block;
+}
+
+
+header2{
+    display: flex;
+    padding: 5px 20px;
+    background: #ffffe6;
+    height: 100px;
+}
+
+header2 #logo{
+    width: 100px;
+    height: 100px;
+    padding-left: 100px;
+    display: block;
+}
+
+
+header2 #menu {
+	position: relative;
+	text-align: right;
+	text-align: top;
+}
+
+header2 #logo{
+	position: relative;
+	width: 100px;
+	padding-left: 100px;
+	transition: 0.6;
+}
+
+header2 #menu ul{
+	position: relative;
+	list-style-type: none;
+	padding: 0;
+	display: inline-block;
+	margin-top: 25px;
+}
+
+header2 #menu ul li{
+	position: relative;
+	float: left;
+	margin-left: 5px;
+}
+
+header2 #menu ul li a{
+	position: relative;
+	text-decoration: none;
+	font-weight: bond;
+	color: #ffcc33;
+	padding: 10px 30px;
+	font-size: 20px;
+}
+
+
+header2 #menu ul li a:hover{
+	position: relative;
+	border-bottom: 2px solid #ffcc33;	
+}
+
+/* Body */
+#mainPage{
+    padding-top:150px;
+}
+.sectionTitle{
+	padding-top: 30px;
+	border-top: 5px  solid #ffcc33;
+	text-align: center;
+	color: black;
+	font-size: 32;
+	font-weight: bold;	
+}
+
+
+
+#wayBread{
+	padding-left: 40px;
+	background-color: #ffd966;
+	padding-bottom: 25px;
+	margin-bottom:-20px;
+}
+/*About us - Pictures*/
+#history{
+    margin-left: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+#history2 {
+    margin-right: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;    
+}
+
+/*Contact*/
+#contact{
+	margin: 30px 0;
+	background-color: #ffd966;
+}
+.contactPanel{
+	width: 350px;
+	color: #848484;
+	margin-top: 40px;
+	padding-right: 20px;
+}
+.contactPanel h3{
+	color: #000;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e6ac00;
+}
+
+/* Services */
+.fade-in {
+	animation: fadeIn 3s;
+}
+.fade-in2 {
+	animation: fadeIn 4s;
+}
+.fade-in3 {
+	animation: fadeIn 5s;
+}
+.fade-in4 {
+	animation: fadeIn 6s;
+}
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	
+	to{
+		opacity: 1;
+	}
+}
+
+/*Footer */
+footer{
+	text-align: center;
+}
