@@ -256,6 +256,10 @@ header2 #menu ul li a:hover{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;    
 }
+/*Partneres*/
+#partners p{
+    margin:10px;
+}
 
 /*Contact*/
 #contact{
