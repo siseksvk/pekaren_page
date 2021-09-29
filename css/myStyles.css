@@ -48,7 +48,7 @@ header #imageHeader {
     position: fixed;
 }
 
-header #imageHeader p {
+header #imageHeader h2 {
     padding-top: 50px; 
     font-family: Cursive;
     font-size: 55px;
@@ -142,82 +142,6 @@ header.sticky #menu ul li a{
 
 
 header.sticky #menu ul li a:hover{
-	position: relative;
-	border-bottom: 2px solid #ffcc33;	
-}
-
-/* Header2 */
-header2{
-    position: fixed;
-	height: 100%;
-	top: 0;
-	left: 0;
-	width: 100%;
-	justify-content: space-between;
-	transition: 1s;
-	z-index: 10;
-	background: #ffffe6;
-	background-size: 100%;
-}
-
-header2 nav{
-    display: block;
-}
-
-
-header2{
-    display: flex;
-    padding: 5px 20px;
-    background: #ffffe6;
-    height: 100px;
-}
-
-header2 #logo{
-    width: 100px;
-    height: 100px;
-    padding-left: 100px;
-    display: block;
-}
-
-
-header2 #menu {
-	position: relative;
-	text-align: right;
-	text-align: top;
-}
-
-header2 #logo{
-	position: relative;
-	width: 100px;
-	padding-left: 100px;
-	transition: 0.6;
-}
-
-header2 #menu ul{
-	position: relative;
-	list-style-type: none;
-	padding: 0;
-	display: inline-block;
-	margin-top: 25px;
-}
-
-header2 #menu ul li{
-	position: relative;
-	float: left;
-	margin-left: 5px;
-}
-
-header2 #menu ul li a{
-	position: relative;
-	text-decoration: none;
-	font-weight: bond;
-	color: #ffcc33;
-	padding: 10px 30px;
-	font-size: 20px;
-}
-
-
-header2 #menu ul li a:hover{
 	position: relative;
 	border-bottom: 2px solid #ffcc33;	
 }
