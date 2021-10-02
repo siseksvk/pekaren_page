@@ -165,13 +165,6 @@ header.sticky #menu ul li a:hover{
 }
 
 
-
-#wayBread{
-	padding-left: 40px;
-	background-color: #ffd966;
-	padding-bottom: 25px;
-	margin-bottom:-20px;
-}
 /*About us - Pictures*/
 #history{
     margin-left: 50px;
@@ -188,6 +181,15 @@ header.sticky #menu ul li a:hover{
 /*Partneres*/
 #partners p{
     margin:10px;
+}
+
+/*Products*/
+
+#products{
+	background-color: #ffd966;
+	padding-bottom: 25px;
+	margin-bottom:-20px;
+	text-align: center;
 }
 
 /*Contact*/
