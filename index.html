@@ -5,14 +5,15 @@
 	<title>🍞  Pekáreň Kúty</title>
 	<link rel="stylesheet" type="text/css" href="css/myStyles.css">
 	</head>
-	
+
 	<body>
-		<div id="mainWrapper">
+		<section id="mainWrapper">
 			<header>
 			    <section class="fade-in" id="imageHeader">
-				    <h2>"Pripravovane s rozumom, pecene s laskou"</h2>
-				    <div><img id="bread" src="images/bread.png"></div>
-				    <div><a href="#mainPage"><img id="row" src="images/scrollDown.png"></a></div>
+				    <h2 id="bannerLeft">"Pripravovane s rozumom, pecene s laskou"</h2>
+				    <section id="bannerLeft"><img id="bread" src="images/bread.png"></section>
+				    <section id="sectionRow"><a href="#mainPage"><img id="row" src="images/scrollDown.png"></a></section>
+						<div class="clearFix"></div>
 				</section>
 				<section id="logo" class="floatLeft">
 					<a href="index.html">
@@ -20,104 +21,102 @@
 						    <img id="logo" src="images/logo.png" alt="logo pekárne" style="width: auto;">
 						</picture>
 					</a>
-				</section>	
-				
+				</section>
+
+
 				<nav id="menu" class="floatRight">
 					<ul>
 						<li><a href="#mainPage">Úvod</a></li>
 						<li><a href="#aboutUs">O nás</a></li>
-						<li><a href="products.html">Produkty</a></li>
+						<li><a href="#products">Produkty</a></li>
 						<li><a href="#partners">Partnery</a></li>
-						<li><a href="job.html">Ponuka práce</a></li>
+						<li><a href="#job">Ponuka práce</a></li>
 						<li><a href="#contact">Kontakt</a></li>
 					</ul>
 				</nav>
-				
 				<div class="clearFix"></div>
-			    
-			</header> 
+			</header>
 			<script  type="text/javascript">
 				window.addEventListener("scroll", function(){
 				var header = document.querySelector("header");
 				header.classList.toggle("sticky", window.scrollY > 0)
 				})
 			</script>
-			
-			<div id="mainPage">
-			</div>
+
+			<section id="mainPage">
+			</section>
 			<section class="fade-in">
-			    <div class="floatLeft">
+			    <section class="floatLeft">
 			        <img id="history" src="images/historyEdit/history2400px.jpg" alt="Jozef Hercogh">
-			    </div>
-				<div id="bannerLeft" class="floatLeft">
+			    </section>
+				<section id="bannerLeft" class="floatLeft">
 				    <h4> Nieco o nas </h4>
-			
-				</div>
-				<div id="bannerRight" class="floatRight">
+
+				</section>
+				<section id="bannerRight" class="floatRight">
 					<img id="history2" src="images/historyEdit/history400px.jpg" alt="Jozef Hercogh">
-					</div>
+					</section>
 				<div class="clearFix" ></div>
 			</section>
 			<section  class="sectionTitle fade-in2"  id="wayBread">
-				<div class="floatLeft" >
+				<section class="floatLeft" >
 					<img class="serviceBox" src="images/obilie.jpg">
 					<img class="serviceBox" src="images/flour.jpg">
 					<img class="serviceBox" src="images/bread.jpg">
-				</div>
+				</section>
 				<div class="clearFix"></div>
 			</section>
-		
+
 			<section class="fade-in3" id="partners">
 				<h2 class="sectionTitle">Partneri</h2>
-				<div class="floatLeft">Našími partnermi sú viaceré obchody na Zahorí a to konkrétne v mestách a dedinách: </div>
-				<div class="floatLeft">
-				    <p>Borský Svätý Júr</p>
-				    <p>Brodské</p>
-				    <p>Gajary</p>
-				    <p>Kostolište</p>
-				    <p>Kuklov</p>
-				    <p>Kúty</p>
-				    <p>Malacky</p>
-				    <p>Malé Leváre</p>
-				    <p>Moravský Svätý Ján</p>
-				    <p>Sekule</p>
-				    <p>Velké Leváre</p>
-				    <p>Závod</p>
-				    <p></p>
-				    <p></p>
-				</div>
+				<section class="floatLeft">Našími partnermi sú viaceré obchody na Zahorí a to konkrétne v mestách a dedinách: </section>
+				<section class="floatLeft">
+					<ul>
+							<il>Borský Svätý Júr</il>
+							<il>Brodské</il>
+							<il>Gajary</il>
+							<il>Kostolište</il>
+							<il>Kuklov</il>
+							<il>Kúty</il>
+							<il>Malacky</il>
+							<il>Malé Leváre</il>
+							<il>Moravský Svätý Ján</il>
+							<il>Sekule</il>
+							<il>Velké Leváre</il>
+							<il>Závod</il>
+							<il></il>
+					</ul>
+				</section>
 				<div class="clearFix"></div>
 			</section>
-		
-		
+
 			<section class="fade-in4" id="contact">
 				<h2 class="sectionTitle">Kontakt</h2>
-				<div id="contactLeft" class="floatLeft">
+				<section id="contactLeft" class="floatLeft">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2635.4490517153395!2d17.018458316047237!3d48.658654179268474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476cd18e233b5dc9%3A0xf8fd48d91c1c4b42!2zUGVrw6FyZcWIIFZsYWRpbcOtciDFoGltZWs!5e0!3m2!1ssk!2ssk!4v1612029645356!5m2!1ssk!2ssk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-				</div>
-				<div id="contactRight"  class="floatRight">
-					<div class="contactPanel">
+				</section>
+				<section id="contactRight"  class="floatRight">
+					<section class="contactPanel">
 						<h3> Adresa </h3>
 						<p>Radinkého Nám. 1710/4A <br> 908 01 Kúty</p>
-					</div>
-					<div class="contactPanel">
+					</section>
+					<section class="contactPanel">
 						<h3>Fakturačné údaje: </h3>
 						<p><strong>IČO:</strong>35293896</p>
 						<p><strong>IČ DPH:</strong>SK1020300754</p>
-					</div>
-					<div class="contactPanel">
+					</section>
+					<section class="contactPanel">
 						<h3>e-mail / tel. číslo:</h3>
 						<p><strong>e-mail:</strong>pekaren.kuty@gmail.com</p>
 						<p><strong>Tel. číslo:</strong>034/659 77 56</p>
-					</div>
-					
-				</div>
+					</section>
+				</section>
 				<div class="clearFix" ></div>
 			</section>
-		
+
 			<footer>
-			&copy; 2020 Made by Daniel Šimek 
+			&copy; 2020 Made by Daniel Šimek
 			</footer>
-		</div>
+		</section>
 	</body>
 </html>
