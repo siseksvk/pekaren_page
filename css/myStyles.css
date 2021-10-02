@@ -167,10 +167,12 @@ header.sticky #menu ul li a:hover{
 
 
 #wayBread{
-	padding-left: 40px;
 	background-color: #ffd966;
 	padding-bottom: 25px;
 	margin-bottom:-20px;
+}
+#wayBread img{
+	padding-left:20px;
 }
 /*About us - Pictures*/
 #history{
