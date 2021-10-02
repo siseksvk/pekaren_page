@@ -189,9 +189,7 @@ header.sticky #menu ul li a:hover{
 	background-color: #ffd966;
 	padding-bottom: 25px;
 	margin-bottom:-20px;
-}
-#products img{
-	padding-left:20px;
+	text-align: center;
 }
 
 /*Contact*/
