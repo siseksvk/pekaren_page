@@ -150,7 +150,7 @@ header.sticky #menu ul li a:hover{
 	border-top: 5px  solid #ffcc33;
 	text-align: center;
 	color: black;
-	font-size: 32;
+	font-size: 32px;
 	font-weight: bold;
 }
 
@@ -193,6 +193,7 @@ header.sticky #menu ul li a:hover{
 /*Job*/
 #job{
 		background-color: #ffd966;
+
 }
 /*Contact*/
 #contact{
