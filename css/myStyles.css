@@ -184,6 +184,9 @@ header.sticky #menu ul li a:hover{
 	margin-bottom:-20px;
 	text-align: center;
 }
+#products img{
+	border-radius: 50px;
+}
 #leftProducts {
 	padding-left: 150px;
 }
@@ -193,7 +196,7 @@ header.sticky #menu ul li a:hover{
 
 /*Partneres*/
 #partners p{
-    margin:10px;
+    padding-left: 25px;
 }
 
 /*Job*/
