@@ -156,14 +156,20 @@ header.sticky #menu ul li a:hover{
 
 
 /*About us - Pictures*/
+#aboutUs{
+	display: flex;
+}
 #history{
+	padding-left: 5px;
+}
+#historyLeft{
     margin-left: 50px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 
 }
 
-#history2 {
+#historyRight{
     margin-right: 50px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
