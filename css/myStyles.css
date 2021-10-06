@@ -117,7 +117,7 @@ header.sticky #menu ul{
 	list-style-type: none;
 	padding: 0;
 	display: inline-block;
-	margin-top: 25px;
+	margin-top: 40px;
 }
 
 header.sticky #menu ul li{
@@ -196,7 +196,7 @@ header.sticky #menu ul li a:hover{
 
 /*Partneres*/
 #partners p{
-    padding-left: 25px;
+    padding: 25px;
 }
 
 /*Job*/
