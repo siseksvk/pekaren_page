@@ -1,4 +1,4 @@
-/* General */
+ /* General */
 body {
 	font-family:  Arial, Helvetica;
 	background: url(../images/backroundHeader.jpg) fixed;
@@ -11,17 +11,7 @@ body {
 	margin: auto;
 }
 
-.floatLeft{
-	float: left;
-}
 
-.floatRight{
-	float: right;
-}
-
-.clearFix{
-	clear: both;
-}
 
 /* Header */
 header{
@@ -127,7 +117,7 @@ header.sticky #menu ul{
 	list-style-type: none;
 	padding: 0;
 	display: inline-block;
-	margin-top: 25px;
+	margin-top: 40px;
 }
 
 header.sticky #menu ul li{
@@ -160,42 +150,64 @@ header.sticky #menu ul li a:hover{
 	border-top: 5px  solid #ffcc33;
 	text-align: center;
 	color: black;
-	font-size: 32;
+	font-size: 24px;
 	font-weight: bold;
 }
 
 
 /*About us - Pictures*/
+#aboutUs{
+	display: flex;
+}
 #history{
+	padding-left: 5px;
+}
+#historyLeft{
     margin-left: 50px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 
 }
 
-#history2 {
+#historyRight{
     margin-right: 50px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-}
-/*Partneres*/
-#partners p{
-    margin:10px;
 }
 
 /*Products*/
 
 #products{
+
 	background-color: #ffd966;
 	padding-bottom: 25px;
 	margin-bottom:-20px;
 	text-align: center;
 }
+#products img{
+	border-radius: 50px;
+}
+#leftProducts {
+	padding-left: 150px;
+}
+#rightProducts{
+	padding-right: 150px;
+}
 
+/*Partneres*/
+#partners p{
+    padding: 25px;
+}
+
+/*Job*/
+#job{
+		background-color: #ffd966;
+		padding-bottom: 30px;
+		margin-bottom: -30px;
+	}
 /*Contact*/
 #contact{
 	margin: 30px 0;
-	background-color: #ffd966;
 }
 .contactPanel{
 	width: 350px;
@@ -210,6 +222,19 @@ header.sticky #menu ul li a:hover{
 }
 
 /* Services */
+
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+
+.clearFix{
+	clear: both;
+}
+
 .fade-in {
 	animation: fadeIn 3s;
 }
@@ -218,9 +243,6 @@ header.sticky #menu ul li a:hover{
 }
 .fade-in3 {
 	animation: fadeIn 5s;
-}
-.fade-in4 {
-	animation: fadeIn 6s;
 }
 
 @keyframes fadeIn{
