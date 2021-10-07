@@ -80,7 +80,7 @@ header.sticky #imageHeader img{
 
 
 header.sticky nav{
-    display: flex;
+    display:block ruby;
 }
 
 
@@ -102,7 +102,6 @@ header.sticky #logo{
 header.sticky #menu {
 	position: relative;
 	text-align: right;
-	text-align: top;
 }
 
 header.sticky #logo{
